@@ -14,7 +14,6 @@ Inspired by [node-module-boilerplate](https://github.com/sindresorhus/node-modul
 - [TypeScript](https://www.typescriptlang.org/)
 - [Husky](https://github.com/typicode/husky)
 - [Lint Staged](https://github.com/okonet/lint-staged)
-- [Commitizen](https://github.com/search?q=commitizen)
 - [Jest](https://jestjs.io/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -60,7 +59,6 @@ Enable the Codecov GitHub App [here](https://github.com/apps/codecov).
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 [![Code Coverage][codecov-img]][codecov-url]
-[![Commitizen Friendly][commitizen-img]][commitizen-url]
 [![Semantic Release][semantic-release-img]][semantic-release-url]
 
 > My awesome module
@@ -101,17 +99,16 @@ Default: `rainbows`
 
 Lorem ipsum.
 
-[build-img]:https://github.com/ryansonshine/react-autolink-heading/actions/workflows/release.yml/badge.svg
-[build-url]:https://github.com/ryansonshine/react-autolink-heading/actions/workflows/release.yml
-[downloads-img]:https://img.shields.io/npm/dt/react-autolink-heading
-[downloads-url]:https://www.npmtrends.com/react-autolink-heading
-[npm-img]:https://img.shields.io/npm/v/react-autolink-heading
-[npm-url]:https://www.npmjs.com/package/react-autolink-heading
-[issues-img]:https://img.shields.io/github/issues/ryansonshine/react-autolink-heading
-[issues-url]:https://github.com/ryansonshine/react-autolink-heading/issues
-[codecov-img]:https://codecov.io/gh/ryansonshine/react-autolink-heading/branch/main/graph/badge.svg
-[codecov-url]:https://codecov.io/gh/ryansonshine/react-autolink-heading
-[semantic-release-img]:https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[semantic-release-url]:https://github.com/semantic-release/semantic-release
-[commitizen-img]:https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
-[commitizen-url]:http://commitizen.github.io/cz-cli/
+[build-img]: https://github.com/ryansonshine/react-autolink-heading/actions/workflows/release.yml/badge.svg
+[build-url]: https://github.com/ryansonshine/react-autolink-heading/actions/workflows/release.yml
+[downloads-img]: https://img.shields.io/npm/dt/react-autolink-heading
+[downloads-url]: https://www.npmtrends.com/react-autolink-heading
+[npm-img]: https://img.shields.io/npm/v/react-autolink-heading
+[npm-url]: https://www.npmjs.com/package/react-autolink-heading
+[issues-img]: https://img.shields.io/github/issues/ryansonshine/react-autolink-heading
+[issues-url]: https://github.com/ryansonshine/react-autolink-heading/issues
+[codecov-img]: https://codecov.io/gh/ryansonshine/react-autolink-heading/branch/main/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/ryansonshine/react-autolink-heading
+[semantic-release-img]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-release-url]: https://github.com/semantic-release/semantic-release
+[commitizen-url]: http://commitizen.github.io/cz-cli/
