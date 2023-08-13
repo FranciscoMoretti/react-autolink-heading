@@ -19,11 +19,12 @@ npm install react-autolink-heading
 
 ## Usage
 
-```ts
-import { myPackage } from 'react-autolink-heading';
+```tsx
+import { AutoLinkHeading } from 'react-autolink-heading';
 
-myPackage('hello');
-//=> 'hello from my package'
+<AutoLinkHeading>
+  <h2>My header title</h2>
+</AutoLinkHeading>;
 ```
 
 ## API
