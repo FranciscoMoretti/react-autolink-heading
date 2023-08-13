@@ -14,6 +14,12 @@ Just like [rehype-autolink-headings](https://github.com/rehypejs/rehype-autolink
 npm install react-autolink-heading
 ```
 
+or
+
+```bash
+pnpm i react-autolink-heading
+```
+
 ## Usage
 
 ```tsx
