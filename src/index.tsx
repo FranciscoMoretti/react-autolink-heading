@@ -44,7 +44,15 @@ export function AutolinkHeading({
     );
     return null;
   }
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
+  if (!firstChild.props || firstChild.props.children.length == 0) {
+    console.warn(
+      'AutoLinkHeader: The first child does not contain the expected text.'
+    );
+    return null;
+  }
+
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access
   const firstGrandChild = React.Children.toArray(firstChild.props.children)[0];
 
   if (firstGrandChild === undefined) {
@@ -54,10 +62,11 @@ export function AutolinkHeading({
     return null;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-base-to-string
   const headerSlug = headingId || slug(firstGrandChild.toString());
 
   const clonedFirstChild = cloneElement(firstChild, {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-argument
     className: cn(firstChild.props.className, className),
     id: headerSlug,
     children: (
