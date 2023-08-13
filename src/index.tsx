@@ -38,6 +38,12 @@ export function AutolinkHeading({
     return null;
   }
 
+  if (!firstChild) {
+    console.warn(
+      'AutoLinkHeader: The first child does not have the correct format.'
+    );
+    return null;
+  }
   // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
   const firstGrandChild = React.Children.toArray(firstChild.props.children)[0];
 
@@ -49,6 +55,7 @@ export function AutolinkHeading({
   }
 
   const headerSlug = headingId || slug(firstGrandChild.toString());
+
   const clonedFirstChild = cloneElement(firstChild, {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
     className: cn(firstChild.props.className, className),

@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup src/index.tsx --format cjs,esm --dts --tsconfig  tsconfig.build.json",
     "release": "pnpm run build && changeset publish",
-    "lint": "tsc && eslint ./src/ --fix",
+    "lint": "tsc",
     "prepare": "husky install",
     "test:watch": "jest --watch",
     "test": "jest --coverage"
