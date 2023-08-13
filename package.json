@@ -1,6 +1,6 @@
 {
   "name": "react-autolink-heading",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A template for creating npm packages using TypeScript and VSCode",
   "main": "./lib/index.js",
   "module": "lib/index.js",

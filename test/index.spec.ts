@@ -1,4 +1,4 @@
-import { AutoLinkHeading } from '../src';
+import { AutolinkHeading } from '../src';
 
 describe('index', () => {
   describe('myPackage', () => {

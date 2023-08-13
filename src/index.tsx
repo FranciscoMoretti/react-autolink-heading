@@ -8,7 +8,7 @@ import { slug } from 'github-slugger';
 
 import { cn } from 'mxcn';
 
-interface AutoLinkHeadingProps {
+interface AutolinkHeadingProps {
   children: ReactNode;
   className: string;
   linkClassName?: string;
@@ -24,13 +24,13 @@ function isHeadingElement(element: ReactNode): element is ReactElement {
   );
 }
 
-export function AutoLinkHeading({
+export function AutolinkHeading({
   children,
   className,
   linkClassName = '',
   ariaLabel = 'Link to section',
   headingId = '',
-}: AutoLinkHeadingProps): JSX.Element | null {
+}: AutolinkHeadingProps): JSX.Element | null {
   const firstChild = React.Children.toArray(children)[0];
 
   if (!isHeadingElement(firstChild)) {
