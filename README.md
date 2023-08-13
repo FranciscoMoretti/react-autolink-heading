@@ -44,11 +44,6 @@ Lorem ipsum.
 
 Type: `object`
 
-##### postfix
-
-Type: `string`
-Default: `rainbows`
-
 Lorem ipsum.
 
 [downloads-img]: https://img.shields.io/npm/dt/react-autolink-heading
