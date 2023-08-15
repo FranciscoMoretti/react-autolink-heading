@@ -1,5 +1,12 @@
 # react-autolink-heading
 
+## 0.0.8
+
+### Patch Changes
+
+- ceeb472: dont lint dist
+- 11d5f1e: export path in package
+
 ## 0.0.7
 
 ### Patch Changes
