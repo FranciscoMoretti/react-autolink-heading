@@ -4,8 +4,11 @@
   "description": "A component to add links to headings with ids back to themselves",
   "exports": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "type": "module",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "tsup src/index.tsx --format esm --dts --tsconfig  tsconfig.build.json",
     "release": "pnpm run build && changeset publish",
