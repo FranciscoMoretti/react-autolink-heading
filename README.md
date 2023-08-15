@@ -62,7 +62,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-If you find AutolinkHeading helpful, consider giving it a ⭐️ on [GitHub](https://github.com/FranciscoMoretti/autolink-heading)!
+If you find AutolinkHeading helpful, consider giving it a ⭐️ on [GitHub](https://github.com/FranciscoMoretti/react-autolink-heading)!
 
 [downloads-img]: https://img.shields.io/npm/dt/react-autolink-heading
 [downloads-url]: https://www.npmtrends.com/react-autolink-heading
