@@ -4,9 +4,11 @@
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 
-AutolinkHeading is a React component that enhances your headings with automatic anchor links, making navigation within long documents a breeze.
+![react-autolink-heading](react-autolink-heading.png)
 
-> Just like [rehype-autolink-headings](https://github.com/rehypejs/rehype-autolink-headings) but for React.
+`AutolinkHeading` is a React component that enhances your headings with automatic anchor links, making navigation within long documents a breeze.
+
+_Just like [rehype-autolink-headings](https://github.com/rehypejs/rehype-autolink-headings) but for React._
 
 ## Features
 
