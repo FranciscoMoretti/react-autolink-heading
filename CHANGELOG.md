@@ -1,5 +1,11 @@
 # react-autolink-heading
 
+## 0.0.7
+
+### Patch Changes
+
+- f12ea01: fix exports
+
 ## 0.0.6
 
 ### Patch Changes
