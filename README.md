@@ -1,20 +1,29 @@
-# react-autolink-heading
+# React AutolinkHeading
 
 [![npm package][npm-img]][npm-url]
 [![Downloads][downloads-img]][downloads-url]
 [![Issues][issues-img]][issues-url]
 
-> A component to add links to headings with ids back to themselves.
+AutolinkHeading is a React component that enhances your headings with automatic anchor links, making navigation within long documents a breeze.
 
-Just like [rehype-autolink-headings](https://github.com/rehypejs/rehype-autolink-headings) but for React.
+> Just like [rehype-autolink-headings](https://github.com/rehypejs/rehype-autolink-headings) but for React.
+
+## Features
+
+- Automatically generates anchor links for headings.
+- Customizable class names and ARIA labels.
+- Works with various levels of headings (h1 - h6).
+- Lightweight and easy to integrate.
 
 ## Install
+
+Install the package via npm:
 
 ```bash
 npm install react-autolink-heading
 ```
 
-or
+or pnpm
 
 ```bash
 pnpm i react-autolink-heading
@@ -23,28 +32,37 @@ pnpm i react-autolink-heading
 ## Usage
 
 ```tsx
-import { AutolinkHeading } from 'react-autolink-heading';
+import React from 'react';
+import { AutolinkHeading } from 'autolink-heading';
 
-<AutolinkHeading>
-  <h2>My header title</h2>
-</AutolinkHeading>;
+function MyComponent() {
+  return (
+    <div>
+      <AutolinkHeading className="my-heading" linkClassName="my-link">
+        <h2>My Header Title</h2>
+      </AutolinkHeading>
+      {/* Add more AutolinkHeading components as needed */}
+    </div>
+  );
 ```
 
-## API
+## Props
 
-### myPackage(input, options?)
+| Prop          | Type      | Description                                                  |
+| ------------- | --------- | ------------------------------------------------------------ |
+| children      | ReactNode | The heading element(s) to enhance with anchor links.         |
+| className     | string    | Additional class name(s) for the heading element.            |
+| linkClassName | string    | Additional class name(s) for the anchor link.                |
+| ariaLabel     | string    | ARIA label for the anchor link (default: 'Link to section'). |
+| headingId     | string    | Manually set the heading ID for the anchor link.             |
 
-#### input
+## License
 
-Type: `string`
+This project is licensed under the [MIT License](LICENSE).
 
-Lorem ipsum.
+---
 
-#### options
-
-Type: `object`
-
-Lorem ipsum.
+If you find AutolinkHeading helpful, consider giving it a ⭐️ on [GitHub](https://github.com/your-username/autolink-heading)!
 
 [downloads-img]: https://img.shields.io/npm/dt/react-autolink-heading
 [downloads-url]: https://www.npmtrends.com/react-autolink-heading
