@@ -1,5 +1,11 @@
 # react-autolink-heading
 
+## 0.0.6
+
+### Patch Changes
+
+- 0a3c678: Converted to ESM
+
 ## 0.0.5
 
 ### Patch Changes
