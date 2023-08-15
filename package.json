@@ -1,6 +1,6 @@
 {
   "name": "react-autolink-heading",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A component to add links to headings with ids back to themselves",
   "exports": "./dist/index.js",
   "typings": "./dist/index.d.ts",
