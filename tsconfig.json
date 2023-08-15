@@ -11,4 +11,5 @@
     "jsx": 	"react",
     "noEmit": true
   },
+  "include": ["./src/", "./test/"]
 }

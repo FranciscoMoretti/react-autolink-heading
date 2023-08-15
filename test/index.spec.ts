@@ -1,4 +1,4 @@
-import { AutolinkHeading } from '../src';
+// import { AutolinkHeading } from '../src/index.js';
 
 describe('index', () => {
   describe('myPackage', () => {

@@ -29,5 +29,5 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
   },
-  ignorePatterns: ['.eslintrc.js', 'jest.config.js'],
+  ignorePatterns: [ '.eslintrc.cjs', 'jest.config.cjs'],
 };
